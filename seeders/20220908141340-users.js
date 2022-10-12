@@ -7,9 +7,9 @@ module.exports = {
     const timeNow = new Date();
     await queryInterface.bulkInsert('Users', [
       {
-        username: 'acong',
-        email: 'acong@mail.com',
-        password: hash('password'),
+        username: 'junarisalf',
+        email: 'junarisalf@mail.com',
+        password: hash('1234'),
         createdAt: timeNow,
         updatedAt: timeNow
       }
